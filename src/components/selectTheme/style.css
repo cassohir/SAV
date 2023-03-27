@@ -1,0 +1,43 @@
+
+.change-theme {
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0.25rem;
+}
+.change-theme:hover {
+    opacity: 0.8;
+}
+
+.signal {
+   
+    display: flex;
+    padding-top: 0.25rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.mapclass{
+    position: absolute;
+    width: 10rem;
+    background-color: #fafafa;
+    outline: auto;
+    border-radius: 10px;
+}
+.map {
+    display: flex;
+    padding-left: 0.75rem;
+}
+.icon {
+
+    padding-top: 0.5rem;
+    padding-left: 0.75rem;
+}
+
+.theme {
+
+     padding: 0.75rem 1rem;
+     font-size: small;
+     font-weight: bold;
+     cursor: pointer;
+     
+}

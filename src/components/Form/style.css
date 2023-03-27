@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-bottom: 0.8rem;
+   
+  }
+
+  h3 {
+    align-self: center;
+  }
+
+  .container:last-child {
+    margin-bottom: 0rem;
+  }
+  .main-container  {
+    text-align: center;
+  }
+  .main-container h3 {
+    display: inline-block;
+  }
+  
+  button {
+    background-color: rgba(116, 98, 194, 0.8);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.2rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  button:hover {
+    opacity: 0.6;
+  }
+  
