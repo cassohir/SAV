@@ -32,7 +32,7 @@ export const Dropdown = component$((dropDownList: DropDownProps) =>{
     return (
       <div class={`relative flex flex-col ml-auto mr-16 items-center rounded-lg`}>
         <button
-        class="bg-purple-500 h-5 w-5 p-4 w-full flex items-center justify-between 
+        class="bg-purple-500 h-5  p-4 w-full flex items-center justify-between 
         font-bold text-lg rounded-lg tracking-wider border-4 border-transparent 
         active:border-white duration-300 active:text-white"
          onClick$={() => {isOpen.value = !isOpen.value

@@ -3,7 +3,7 @@ import { type DocumentHead } from '@builder.io/qwik-city';
 import axios from 'axios';
 import { SERVER_URL } from '~/utils/url';
 import {TableData} from './components/Table';
-import { EntidadeProps, EntidadeType, TableVxC } from './components/TableVxC';
+import {   TableVxC } from './components/TableVxC';
 import { TabelaDistancias } from './components/Test';
 
 

@@ -1,8 +1,11 @@
+
+
 import { $, component$, useSignal, useStore, useTask$ } from "@builder.io/qwik";
 import axios from "axios";
 import { format } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
-import { EntidadeProps, EntidadeType } from "~/contexts/Entidade";
+import type { EntidadeProps, EntidadeType } from "~/contexts/Entidade";
+import Agenda from "~/routes/agenda";
 import { SERVER_URL } from "~/utils/url";
 
 
@@ -44,7 +47,9 @@ export default component$ (() => {
     });
 
     return (
+
         <div class="flex items-center  w-full justify-between">
+            {/* <Agenda /> */}
             <div class=" p-4 w-60 bg-purple-300 rounded-r-xl">
                 <div class="flex justify-between items-center font-bold ">
                     <span class="">Data </span>
@@ -75,5 +80,6 @@ export default component$ (() => {
                 </div>
             </div>
         </div>
+        
     )
 })  
